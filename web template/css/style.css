@@ -1,0 +1,113 @@
+body {
+	width: 100%;
+	height: 2000px;
+	background: url(../images/background.png) no-repeat;
+	background-size: cover;
+}
+
+#container {
+	width: 100%;
+	height: 2100px;
+	position: relative;
+	overflow: hidden;
+}
+
+.title {
+	font-family: 'Oswald', sans-serif;
+	color: #085FA1;
+	position: absolute;
+	font-size: 70px;
+	top: 90px;
+	left: 40px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+  color: gold;
+  text-decoration: none;
+}
+
+.buttons {
+	width: 600px;
+	height: 32px;
+	font-family: 'Oswald', sans-serif;
+	color: #085FA1;
+	font-size: 30px;
+	position: absolute;
+	top: 110px;
+	left: 915px;
+
+}
+.tab {
+	margin-left: 50px;
+	color: #085FA1;
+}
+.subtitle {
+	color: white;
+	font-family: 'Heebo', sans-serif;
+	font-size: 50px;
+	position: absolute;
+	top: 500px;
+	left: 400px;
+}
+
+.nav {
+	height: 300px;
+}
+
+.section {
+	width: 100%;
+	height: 800px;
+	position: relative;
+
+}
+.information {
+	color: white;
+	font-family: 'Heebo', sans-serif;
+	font-size: 20px;
+	position: absolute;
+	top: 600px;
+	left: 400px;
+	padding-right: 100px;
+	line-height: 25px;
+}
+.mission {
+	color: white;
+	font-family: 'Heebo', sans-serif;
+	font-size: 50px;
+	position: absolute;
+	top: 800px;
+	left: 400px;
+}
+.information1 {
+	color: white;
+	font-family: 'Heebo', sans-serif;
+	font-size: 20px;
+	position: absolute;
+	top: 900px;
+	left: 400px;
+	padding-right: 100px;
+	line-height: 25px;
+}
+.manatee {
+	position: absolute;
+	width: 500px;
+	height: auto;
+	animation-name: manatee_move;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	overflow: hidden;
+}
+@keyframes manatee_move {
+	  0% {right:-600px; top:100px;}
+	  50% {right: 500px; top:25px;}
+  	100% {right:1600px; top:50px;}
+}
+
+
+
+
